@@ -1,0 +1,435 @@
+body {
+    width: 100%;
+    background-color: rgb(177, 198, 214);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation Styling */
+
+#nav-container {
+    width: 100%;
+}
+nav {
+    background-color: rgba(0, 89, 153, 0.26);
+}
+
+ul {
+    width: 100%;
+    padding-bottom: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    
+    
+}
+
+li a {
+    font-size: 1.75rem;
+    text-decoration: none; 
+    margin-bottom: 20px;
+    color: rgb(0, 110, 255);
+}
+
+li a:hover {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+nav img {
+    border-radius: 20px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+}
+
+li:first-child a{
+    background-color: none;
+    border: none;
+}
+
+/* Slogan Section Styling*/
+
+.slogan-container {
+    text-align: center;
+    padding: 6rem;
+    margin-bottom: 3rem;
+}
+
+.slogan-container h1, h2 {
+    padding: 2rem;
+    font-family: "Montez", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/* Middle section lodge styles */
+
+.lodge-container {
+    display: flex;
+    width: fit-content;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background-color: rgba(0, 89, 153, 0.26);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+main p {
+    padding: 25px;
+    font-size: 20px;
+    margin-left: 100px;
+    border-radius: 5rem;
+    text-align: left;
+    flex: 1;
+}
+
+main img {
+    border-radius: 5rem;
+    flex: 1;
+}
+
+.book-button {
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-size: 3rem;
+    flex: 1;  
+    text-align: right;
+    width: 100%;
+}
+
+.book-button a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+  
+}
+
+.book-button a:hover {
+    color: white;
+}
+
+/* Sponsor Section Styles */
+
+#sponsors-section {
+    padding: 5rem;
+    background-color: rgba(206, 206, 206, 0.349);
+    width: 100%;
+
+}
+
+#sponsors-section h1 {
+    text-align: center;
+    font-size: 2rem;
+   
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.sponsors-container div {
+    padding: 6rem;
+    margin: 20px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: rgba(0, 89, 153, 0.26);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.sponsors-container div:hover {
+    background-color: rgba(206, 206, 206, 0.349);
+    color: rgb(0, 110, 255);
+}
+
+/* Footer Styling */
+
+footer {
+    display: flex;
+
+}
+
+footer div {
+    width: fit-content;
+    flex: 1;
+}
+
+/* Left side of footer form */
+
+#contact-form {
+   
+    margin-left: 50px;
+}
+
+label {
+    display: block;
+    
+}
+
+.left-footer h1 {
+    font-size: 2rem;
+}
+
+
+
+ol li {
+    list-style-type: circle;
+    display: block;
+    background-color: none;
+}
+
+.left-footer {
+    padding: 10px;
+    margin: 20px;
+   
+}
+
+.left-footer h1 {
+    font-size: 4.5rem;
+    margin-left: 50px;
+}
+
+.left-footer h3 {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+label {
+    display: block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+    font-size: 1.4rem;
+}
+
+textarea {
+    width: 50%;
+    padding-bottom: 20px;
+    
+}
+input[type="text"], input[type="email"] {
+    padding-top: 0.75rem;
+    width: 50%;
+}
+
+
+button[type="submit"] {
+    width: 30%;
+    background-color: rgb(177, 198, 214);
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+/* Form Validation and Feedback */
+
+input:valid,
+textarea:valid,
+select:valid {
+    border-color:rgb(0, 140, 255);
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border-color: #dc3545;
+}
+
+/* Middle navigation of footer form */
+
+.footer-nav {
+    padding: 10px;
+    margin: 20px; 
+}
+
+.footer-nav h1 {
+    font-size: 4.5rem;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.footer-nav h3 {
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.footer-nav nav {
+    background-color: transparent;
+}
+
+ol {
+   border-radius: 20px;
+}
+
+.footer-nav li {
+    text-align: center;
+}
+
+/* Right side of footer section */
+
+.right-footer {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.right-footer img {
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.phone-footer, .email-footer{
+    padding: 20px;
+    font-size: 2.5rem;
+    margin: 5rem;
+    
+}
+
+/* Footer Copyright Section */
+
+#copyright {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Contact Us Page Form Styling */
+
+.contact-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: rgba(0, 89, 153, 0.26);
+    padding: 5rem;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px;
+    margin-bottom: 10rem;
+}
+
+#contact-form {
+}
+
+.form-group {
+   margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+}
+
+input [type="text"],
+input [type="email"],
+input [type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 140, 255);
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(0, 140, 255);
+    color: rgb(202, 202, 202);
+
+}
+
+/* Form Validation and Feedback */
+
+input:valid,
+textarea:valid,
+select:valid {
+    border-color:rgb(0, 140, 255);
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border-color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+
+
+
+/* Media Queries Flexbox */
+
+@media only screen and (max-width: 768px) {
+
+    .lodge-container {
+        flex-wrap: wrap;
+    }
+
+    main p, main img, .book-button {
+        flex-basis: 100%;
+    }
+    
+    .sponsors-container {
+        flex-wrap: wrap;
+    }
+
+    .sponsors-container div {
+        flex-basis: 100%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer div {
+        flex-basis: 100%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
